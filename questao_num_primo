@@ -1,0 +1,9 @@
+num = int(input("Digite o numero a ser verificado: "))
+
+if(num!=1 and num>1):
+    if (num%2==0 or num%5==0 or num%3==0 or num%7==0):
+        print("Não é primo!")
+    else:
+        print("É primo!")
+else:
+    print("Número inferior ou igual a 1.")
